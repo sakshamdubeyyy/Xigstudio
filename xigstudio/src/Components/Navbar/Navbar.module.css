@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.navItems{
+    display: flex;
+    gap: 30px;
+    width: 431px;
+    list-style: none;
+    li{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
