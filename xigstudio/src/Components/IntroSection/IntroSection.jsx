@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./IntroSection.module.css";
+import LineImage from "../../Assets/Line.png";
 
 export default function InroSection() {
   return (
@@ -8,13 +9,15 @@ export default function InroSection() {
         <h3>Let's Introduce</h3>
         <h3>Ourself</h3>
       </div>
-      <hr />
+      <div className={styles.LineImage}>
+        <img src={LineImage} alt="" />
+      </div>
       <div className={styles.right}>
         <h4>Criminal Lawyer</h4>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            aspernatur dignissimos at cumque harum repudiandae natus aliquid
-            provident voluptatibus recusandae.
+          Amet minim mollit non deserunt ullamco est
+          sit aliqua dolor do amet sint. Velit officia consequatduis
+          enim velit mollit Exercitation.
         </p>
       </div>
     </div>

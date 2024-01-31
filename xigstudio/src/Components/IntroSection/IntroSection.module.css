@@ -1,6 +1,43 @@
 .wrapper{
     display: flex;
+    justify-content: space-between;
     width: 1132px;
     height: 174px;
     border-top: 450px;
+    position: relative;
+    top: 120px;
+    left: 50px;
+}
+
+.left{
+    width: 387px;
+    height: 174px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 87.22px;
+}
+
+.right{
+    width: 475px;
+    height: 155px;
+    h4{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 52.01px;
+    }
+    p{
+        color: var(--color-grey);
+        height: 87px;
+        width: 475px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29.25px;
+        margin-top: 20px;
+    }
+}
+
+.LineImage{
+    img{
+        height: 250px;
+    }
 }
