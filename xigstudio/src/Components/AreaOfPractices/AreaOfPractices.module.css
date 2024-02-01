@@ -1,0 +1,15 @@
+.container{
+    width: 1140px;
+    height: 1228px;
+    border-radius: 14px;
+    margin-top: 225px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.heading{
+    height: 77px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.23px;
+}

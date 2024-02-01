@@ -1,0 +1,41 @@
+.container{
+    width: 1137px;
+    height: 626px;
+    margin-top: 125px;
+    margin-left: 50px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headingSection{
+    width: 374px;
+    height: 154px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 77.23px;
+}
+
+.buttons{
+    width: 200px;
+    height: 91.85px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.buttonLeft{
+    cursor: pointer;
+}
+
+.buttonRight{
+    cursor: pointer;
+}
+
+.cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}

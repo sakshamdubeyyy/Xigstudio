@@ -1,9 +1,5 @@
 import React from "react";
 import styles from "./Card.module.css";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import { Button, CardActionArea, CardActions } from "@mui/material";
 import CardImage from "../../Assets/CardImage.png"
 
 export default function CardComponent({ heading, para }){

@@ -1,0 +1,40 @@
+.container{
+    width: 344px;
+    height: 109px;
+    border-radius: 14px;
+    display: flex;
+    transition: all 0.5s ease-in-out;
+}
+
+.container:hover{
+    background-color: var(--color-yellow);
+    cursor: pointer;
+    .name{
+        color: var(--color-black);
+    }
+}
+
+.image{
+    margin: 20px;
+}
+
+.nameAndCases{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    transition: all 0.5s ease-in-out;
+}
+
+.cases{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--color-grey);
+}
