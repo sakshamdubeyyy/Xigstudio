@@ -1,0 +1,61 @@
+.container{
+    width: 1140px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e2e2e;
+    margin-top: -200px;
+    margin-left: 50px;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 75.35px;
+}
+
+.emailInput{
+    margin-top: 20px;
+    border: 8px;
+    display: flex;
+    width: 686px;
+    height: 53px;
+    gap: 2px;
+}
+
+.nameInput{
+    width: 276px;
+    height: 53px;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid #2e2e2e;
+    padding: 20px;
+}
+
+.emailInputbox{
+    width: 376px;
+    height: 53px;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid #2e2e2e;
+    padding: 20px;
+}
+
+.sendButton{
+    width: 116px;
+    height: 53px;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #2e2e2e;
+    background-color: var(--color-yellow);
+    transition: all .5s ease-in-out;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.18px;
+}
+
+.sendButton:hover{
+    background-color: #2e2e2e;
+    cursor: pointer;
+    color: var(--color-yellow);
+    border: 1px solid var(--color-yellow);
+}

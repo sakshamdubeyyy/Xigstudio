@@ -7,6 +7,7 @@ import AreaOfPractices from './Components/AreaOfPractices/AreaOfPractices';
 import Clients from './Components/ClientsSection/Clients';
 import Team from './Components/TeamSection/Team';
 import Faq from './Components/Faq/Faq';
+import Subscribe from './Components/Subscribe/Subscribe';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
       </div>
       <div className='faq'>
         <Faq/>
+      </div>
+      <div className='subscribe'>
+        <Subscribe/>
       </div>
     </div>
   );

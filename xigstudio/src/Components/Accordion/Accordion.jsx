@@ -11,7 +11,7 @@ export default function AccordionComponent({heading, content}){
         <>
             <div className={styles.container}>
                 <Accordion elevation={0}>
-                    <AccordionSummary expandIcon={<img src={ExpandMoreButton}></img>} aria-controls="panel1-content"
+                    <AccordionSummary expandIcon={<img src={ExpandMoreButton} alt="expand"></img>} aria-controls="panel1-content"
                     id="panel1-header" className={styles.header}>
                         {heading}
                     </AccordionSummary>
