@@ -8,6 +8,7 @@ import Clients from './Components/ClientsSection/Clients';
 import Team from './Components/TeamSection/Team';
 import Faq from './Components/Faq/Faq';
 import Subscribe from './Components/Subscribe/Subscribe';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
       </div>
       <div className='subscribe'>
         <Subscribe/>
+      </div>
+      <div className='footer'>
+        <Footer/>
       </div>
     </div>
   );
