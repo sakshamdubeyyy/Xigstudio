@@ -1,0 +1,28 @@
+.container{
+    width: 1140px;
+    height: 629px;
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.headingLeft{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74.53px;
+}
+
+.left{
+    width: 50%;
+}
+
+.contentLeft{
+    font-size: 18px;
+    line-height: 29.25px;
+    color: var(--color-grey);
+    margin-top: 20px;
+}
+
+.right{
+    width: 50%;
+}

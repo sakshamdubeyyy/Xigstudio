@@ -1,0 +1,23 @@
+.container{
+    border: 1px solid var(--color-primary);
+}
+
+
+.header{
+    background-color: var(--color-primary);
+    font-size: 24px;
+    line-height: 24px;
+    border: 1px solid var(--color-primary);
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+.content{
+    background-color: var(--color-primary);
+    font-size: 18px;
+    line-height: 29.25px;
+    font-weight: 500;
+    border: 1px solid var(--color-primary);
+    color: var(--color-grey);
+}
+
